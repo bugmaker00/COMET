@@ -37,6 +37,7 @@ class TestUnifiedMetricPredict(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         shutil.rmtree(os.path.join(DATA_PATH, "models--Unbabel--test-model-whimsical-whisper"))
+        shutil.rmtree(os.path.join(DATA_PATH, "models--Unbabel--eamt22-cometinho-da"))
 
     def test_predict(self):
         model_output = self.model.predict(TEST_SAMPLES, batch_size=12, gpus=self.gpus)
