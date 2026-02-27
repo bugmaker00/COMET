@@ -17,7 +17,7 @@ XLM-RoBERTa Encoder
 ==============
     Pretrained XLM-RoBERTa  encoder from Hugging Face.
 """
-from typing import Dict
+from typing import Dict, List
 
 import torch
 from transformers import XLMRobertaConfig, XLMRobertaModel, XLMRobertaTokenizerFast
@@ -69,6 +69,22 @@ class XLMREncoder(BERTEncoder):
     def uses_token_type_ids(self):
         return False
 
+    def build_inputs_with_special_tokens(
+        self, token_ids_0: List[int], token_ids_1: List[int]
+    ) -> List[int]:
+        """Concatenate ids from two sequences.
+
+        Returns:
+            List[int]: an encoded sequence.
+        """
+        return (
+            [self.tokenizer.cls_token_id]
+            + token_ids_0
+            + [self.tokenizer.sep_token_id] * 2
+            + token_ids_1
+            + [self.tokenizer.sep_token_id]
+        )
+
     @classmethod
     def from_pretrained(
         cls,
@@ -92,12 +108,18 @@ class XLMREncoder(BERTEncoder):
     def forward(
         self, input_ids: torch.Tensor, attention_mask: torch.Tensor, **kwargs
     ) -> Dict[str, torch.Tensor]:
-        last_hidden_states, _, all_layers = self.model(
+        output = self.model(
             input_ids=input_ids,
             attention_mask=attention_mask,
             output_hidden_states=True,
             return_dict=False,
         )
+
+        if len(output) == 2:
+            last_hidden_states, all_layers = output
+        else:
+            last_hidden_states, _, all_layers = output
+
         return {
             "sentemb": last_hidden_states[:, 0, :],
             "wordemb": last_hidden_states,

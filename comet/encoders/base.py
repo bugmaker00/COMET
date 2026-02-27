@@ -80,6 +80,18 @@ class Encoder(nn.Module, metaclass=abc.ABCMeta):
         """
         raise NotImplementedError
 
+    @abc.abstractmethod
+    def build_inputs_with_special_tokens(self, token_ids_0: List[int], token_ids_1: List[int]) -> List[int]:
+        """Concatenate ids from two sequences.
+
+        This ensures compatibility with Transformers 4.x and 5.x, as the
+        `build_inputs_with_special_tokens method` has been removed from `PreTrainedTokenizerBase`.
+
+        Returns:
+            List[int]: an encoded sequence.
+        """
+        pass
+
     def freeze(self) -> None:
         """Frezees the entire encoder."""
         for param in self.parameters():
@@ -304,7 +316,7 @@ class Encoder(nn.Module, metaclass=abc.ABCMeta):
                 torch.zeros(len(new_sequence[1:-1]) + 2, dtype=torch.int)
             )
             for j in range(1, len(inputs)):
-                new_sequence = self.tokenizer.build_inputs_with_special_tokens(
+                new_sequence = self.build_inputs_with_special_tokens(
                     new_sequence[1:-1], concat_input_ids[j][i][1:-1]
                 )
             if sum(lengths) > self.max_positions - special_tokens:

@@ -17,7 +17,7 @@ BERT Encoder
 ==============
     Pretrained BERT encoder from Hugging Face.
 """
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
 import torch
 from transformers import BertConfig, BertModel, BertTokenizerFast
@@ -115,6 +115,23 @@ class BERTEncoder(Encoder):
         for param in self.model.embeddings.parameters():
             param.requires_grad = False
 
+    def build_inputs_with_special_tokens(
+        self, token_ids_0: List[int], token_ids_1: List[int]
+    ) -> List[int]:
+        """Concatenate ids from two sequences.
+
+        Returns:
+            List[int]: an encoded sequence.
+        """
+        return (
+            [self.tokenizer.cls_token_id]
+            + token_ids_0
+            + [self.tokenizer.sep_token_id]
+            + token_ids_1
+            + [self.tokenizer.sep_token_id]
+        )
+
+
     def layerwise_lr(self, lr: float, decay: float):
         """Calculates the learning rate for each layer by applying a small decay.
 
@@ -168,15 +185,23 @@ class BERTEncoder(Encoder):
             Dict[str, torch.Tensor]: dictionary with 'sentemb', 'wordemb', 'all_layers'
                 and 'attention_mask'.
         """
-        last_hidden_states, pooler_output, all_layers = self.model(
+        output = self.model(
             input_ids=input_ids,
             token_type_ids=token_type_ids,
             attention_mask=attention_mask,
             output_hidden_states=True,
             return_dict=False,
         )
+
+        if len(output) == 2:
+            last_hidden_states, all_layers = output
+            sentemb = last_hidden_states[:, 0, :]
+        else:
+            last_hidden_states, pooler_output, all_layers = output
+            sentemb = pooler_output if pooler_output is not None else last_hidden_states[:, 0, :]
+
         return {
-            "sentemb": pooler_output,
+            "sentemb": sentemb,
             "wordemb": last_hidden_states,
             "all_layers": all_layers,
             "attention_mask": attention_mask,

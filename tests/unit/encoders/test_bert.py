@@ -5,13 +5,13 @@ from comet.encoders.bert import BERTEncoder
 
 
 class TestBERTEncoder(unittest.TestCase):
-    bert = BERTEncoder.from_pretrained("google/bert_uncased_L-2_H-128_A-2")
+    bert = BERTEncoder.from_pretrained("google-bert/bert-base-uncased")
 
     def test_num_layers(self):
-        self.assertEqual(self.bert.num_layers, 3)
+        self.assertEqual(self.bert.num_layers, 13)
 
     def test_output_units(self):
-        self.assertEqual(self.bert.output_units, 128)
+        self.assertEqual(self.bert.output_units, 768)
 
     def test_max_positions(self):
         self.assertEqual(self.bert.max_positions, 510)

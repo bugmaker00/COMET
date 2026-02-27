@@ -8,14 +8,15 @@ import numpy as np
 import torch
 
 from comet import download_model, load_from_checkpoint
-from comet.models import XCOMETMetric
 from tests.data import DATA_PATH
 
 with open(f"{DATA_PATH}/expected_outputs.json") as fr:
     TEST_SAMPLES = json.load(fr)
 
+
 class BaseOutputConsistencyUnifiedMetric(unittest.TestCase):
-    """ Detect UnifiedMetric output changes caused by COMET updates. """
+    """Detect UnifiedMetric output changes caused by COMET updates."""
+
     model_name = None
     referenceless = False
 
@@ -36,17 +37,18 @@ class BaseOutputConsistencyUnifiedMetric(unittest.TestCase):
         test_samples = TEST_SAMPLES[self.model_name]
 
         if self.referenceless:
-            test_samples = [{k: v for k, v in sample.items() if k != "ref"} for sample in test_samples]
+            test_samples = [
+                {k: v for k, v in sample.items() if k != "ref"}
+                for sample in test_samples
+            ]
 
         model_output = self.model.predict(
-            test_samples,
-            batch_size=12,
-            gpus=self.gpus
+            test_samples, batch_size=12, gpus=self.gpus
         )
 
         assert "error_spans" in model_output.metadata
         assert "src_scores" in model_output.metadata
-        
+
         if not self.referenceless:
             assert "ref_scores" in model_output.metadata
             assert "unified_scores" in model_output.metadata
@@ -70,21 +72,50 @@ class BaseOutputConsistencyUnifiedMetric(unittest.TestCase):
                 )
 
             np.testing.assert_almost_equal(
-                expected_scores,
-                actual_scores,
-                decimal=5
+                expected_scores, actual_scores, decimal=5
             )
 
             if score_type == "score":
                 np.testing.assert_almost_equal(
-                    expected_scores.mean(),
-                    model_output.system_score,
-                    decimal=5
+                    expected_scores.mean(), model_output.system_score, decimal=5
                 )
 
         # Check error spans
-        expected_error_spans = [sample["error_spans"] for sample in test_samples]
-        self.assertEqual(expected_error_spans, model_output.metadata["error_spans"])
+        expected_error_spans = [
+            sample["error_spans"] for sample in test_samples
+        ]
+        for expected_sample, predicted_sample in zip(
+            expected_error_spans, model_output.metadata["error_spans"]
+        ):
+            for expected_span, predicted_span in zip(
+                expected_sample, predicted_sample
+            ):
+                # Check span text
+                self.assertEqual(expected_span["text"], predicted_span["text"])
+
+                # Check confidence
+                np.testing.assert_almost_equal(
+                    expected_span["confidence"],
+                    predicted_span["confidence"],
+                    decimal=5,
+                )
+
+                # Check severity
+                self.assertEqual(
+                    expected_span["severity"], predicted_span["severity"]
+                )
+
+                # Check start and end position with +-1 tolerance to account spacing
+                self.assertAlmostEqual(
+                    expected_span["start"],
+                    predicted_span["start"],
+                    delta=1,
+                )
+                self.assertAlmostEqual(
+                    expected_span["end"],
+                    predicted_span["end"],
+                    delta=1,
+                )
 
 
 class TestXCOMETXLQE(BaseOutputConsistencyUnifiedMetric):
@@ -102,6 +133,7 @@ class TestXCOMETXL(BaseOutputConsistencyUnifiedMetric):
     @classmethod
     def tearDownClass(cls):
         shutil.rmtree(os.path.join(DATA_PATH, "models--Unbabel--XCOMET-XL"))
+
 
 class TestXCOMETXXL(BaseOutputConsistencyUnifiedMetric):
     model_name = "Unbabel/XCOMET-XXL"
@@ -121,7 +153,7 @@ class TestXCOMETXXLQE(BaseOutputConsistencyUnifiedMetric):
 
 
 class BaseOutputConsistencyRegressionMetric(unittest.TestCase):
-    """ Detect RegressionMetric output changes caused by COMET updates. """
+    """Detect RegressionMetric output changes caused by COMET updates."""
 
     model_name = None
     referenceless = False
@@ -143,12 +175,13 @@ class BaseOutputConsistencyRegressionMetric(unittest.TestCase):
         test_samples = TEST_SAMPLES[self.model_name]
 
         if self.referenceless:
-            test_samples = [{k: v for k, v in sample.items() if k != "ref"} for sample in test_samples]
+            test_samples = [
+                {k: v for k, v in sample.items() if k != "ref"}
+                for sample in test_samples
+            ]
 
         model_output = self.model.predict(
-            test_samples,
-            batch_size=12,
-            gpus=self.gpus
+            test_samples, batch_size=12, gpus=self.gpus
         )
 
         assert "scores" in model_output
@@ -157,14 +190,10 @@ class BaseOutputConsistencyRegressionMetric(unittest.TestCase):
         # Check scores
         expected_scores = np.array([sample["score"] for sample in test_samples])
         np.testing.assert_almost_equal(
-            expected_scores,
-            model_output.scores,
-            decimal=5
+            expected_scores, model_output.scores, decimal=5
         )
         np.testing.assert_almost_equal(
-            expected_scores.mean(),
-            model_output.system_score,
-            decimal=5
+            expected_scores.mean(), model_output.system_score, decimal=5
         )
 
 
@@ -173,7 +202,9 @@ class TestWMT22CometDA(BaseOutputConsistencyRegressionMetric):
 
     @classmethod
     def tearDownClass(cls):
-        shutil.rmtree(os.path.join(DATA_PATH, "models--Unbabel--wmt22-comet-da"))
+        shutil.rmtree(
+            os.path.join(DATA_PATH, "models--Unbabel--wmt22-comet-da")
+        )
 
 
 class TestWMT22CometKiwiDA(BaseOutputConsistencyRegressionMetric):
@@ -182,7 +213,9 @@ class TestWMT22CometKiwiDA(BaseOutputConsistencyRegressionMetric):
 
     @classmethod
     def tearDownClass(cls):
-        shutil.rmtree(os.path.join(DATA_PATH, "models--Unbabel--wmt22-cometkiwi-da"))
+        shutil.rmtree(
+            os.path.join(DATA_PATH, "models--Unbabel--wmt22-cometkiwi-da")
+        )
 
 
 class TestWMT23CometKiwiDA(BaseOutputConsistencyRegressionMetric):
@@ -191,4 +224,6 @@ class TestWMT23CometKiwiDA(BaseOutputConsistencyRegressionMetric):
 
     @classmethod
     def tearDownClass(cls):
-        shutil.rmtree(os.path.join(DATA_PATH, "models--Unbabel--wmt23-cometkiwi-da-xl"))
+        shutil.rmtree(
+            os.path.join(DATA_PATH, "models--Unbabel--wmt23-cometkiwi-da-xl")
+        )

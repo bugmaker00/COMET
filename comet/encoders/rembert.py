@@ -18,6 +18,8 @@ RemBERT Encoder
     Pretrained RemBERT encoder from Google. This encoder is similar to BERT but uses 
     sentencepiece like XLMR.
 """
+from typing import List
+
 from transformers import RemBertConfig, RemBertModel, RemBertTokenizerFast
 
 from comet.encoders.xlmr import Encoder, XLMREncoder
@@ -62,6 +64,22 @@ class RemBERTEncoder(XLMREncoder):
     @property
     def uses_token_type_ids(self):
         return True
+
+    def build_inputs_with_special_tokens(
+        self, token_ids_0: List[int], token_ids_1: List[int]
+    ) -> List[int]:
+        """Concatenate ids from two sequences.
+
+        Returns:
+            List[int]: an encoded sequence.
+        """
+        return (
+            [self.tokenizer.cls_token_id]
+            + token_ids_0
+            + [self.tokenizer.sep_token_id]
+            + token_ids_1
+            + [self.tokenizer.sep_token_id]
+        )
 
     @classmethod
     def from_pretrained(
