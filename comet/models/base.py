@@ -558,6 +558,7 @@ class CometModel(ptl.LightningModule, metaclass=abc.ABCMeta):
         accelerator: str = "auto",
         num_workers: int = None,
         length_batching: bool = True,
+        destroy_ddp_workers: bool = True,
     ) -> Prediction:
         """Method that receives a list of samples (dictionaries with translations,
         sources and/or references) and returns segment-level scores, system level score
@@ -579,7 +580,13 @@ class CometModel(ptl.LightningModule, metaclass=abc.ABCMeta):
                 data. Defaults to None
             length_batching (bool): If set to true, reduces padding by sorting samples
                 by sequence length. Defaults to True.
-
+            destroy_ddp_workers (bool): Whether to terminate the additional worker processes
+                spawned during multi-GPU prediction. When `True` (default), all processes
+                except the main process (rank 0) are terminated after `predict` completes,
+                and execution continues only on the main process. When `False`, no worker
+                processes are terminated, so `predict` can be called multiple times in a
+                row when using multi-GPU environments, but the user is responsible for
+                handling any multiprocessing behavior in the calling code.
         Return:
             Prediction object with `scores`, `system_score` and any metadata returned
                 by the model.
@@ -665,9 +672,12 @@ class CometModel(ptl.LightningModule, metaclass=abc.ABCMeta):
             pred_writer.cleanup()
             return predictions
 
+        # Destroy or keep the processes after predict
         elif gpus > 1 and not trainer.is_global_zero:
-            # If we are not in the GLOBAL RANK we will return None
-            exit()
+            if destroy_ddp_workers:
+                exit()
+            else:
+                return None
 
         scores = torch.cat([pred["scores"] for pred in predictions], dim=0).tolist()
         if "metadata" in predictions[0]:
