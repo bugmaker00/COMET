@@ -167,7 +167,7 @@ class XCOMETMetric(UnifiedMetric):
             # Regression scores are weighted with self.score_weights
             regression_scores = torch.stack(
                 [
-                    torch.where(pred.score > 1.0, 1.0, pred.score) * w
+                    torch.clamp(pred.score, 0., 1.)  * w
                     for pred, w in zip(predictions, self.score_weights[:3])
                 ],
                 dim=0,
@@ -204,9 +204,7 @@ class XCOMETMetric(UnifiedMetric):
         # XCOMET if reference is not available we fall back to QE model.
         else:
             model_output = self.forward(**batch[0])
-            regression_score = torch.where(
-                model_output.score > 1.0, 1.0, model_output.score
-            )
+            regression_score = torch.clamp(model_output.score, 0., 1.)
             mt_mask = batch[0]["label_ids"] != -1
             mt_length = mt_mask.sum(dim=1)
             seq_len = mt_length.max()
