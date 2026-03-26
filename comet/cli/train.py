@@ -89,7 +89,7 @@ def initialize_trainer(configs) -> Trainer:
     lr_monitor = LearningRateMonitor(logging_interval="step")
     trainer_args["callbacks"] = [early_stop_callback, checkpoint_callback, lr_monitor]
     print("TRAINER ARGUMENTS: ")
-    print(json.dumps(trainer_args, indent=4, default=lambda x: x.__dict__))
+    print(json.dumps(trainer_args, indent=4, default=str))
     trainer = Trainer(**trainer_args)
     return trainer
 
@@ -101,7 +101,7 @@ def initialize_model(configs):
             json.dumps(
                 configs.regression_metric.init_args,
                 indent=4,
-                default=lambda x: x.__dict__,
+                default=str,
             )
         )
         if configs.load_from_checkpoint is not None:
@@ -120,7 +120,7 @@ def initialize_model(configs):
             json.dumps(
                 configs.referenceless_regression_metric.init_args,
                 indent=4,
-                default=lambda x: x.__dict__,
+                default=str,
             )
         )
         if configs.load_from_checkpoint is not None:
@@ -137,7 +137,7 @@ def initialize_model(configs):
     elif configs.ranking_metric is not None:
         print(
             json.dumps(
-                configs.ranking_metric.init_args, indent=4, default=lambda x: x.__dict__
+                configs.ranking_metric.init_args, indent=4, default=str
             )
         )
         if configs.load_from_checkpoint is not None:
@@ -152,7 +152,7 @@ def initialize_model(configs):
     elif configs.unified_metric is not None:
         print(
             json.dumps(
-                configs.unified_metric.init_args, indent=4, default=lambda x: x.__dict__
+                configs.unified_metric.init_args, indent=4, default=str
             )
         )
         if configs.load_from_checkpoint is not None:
