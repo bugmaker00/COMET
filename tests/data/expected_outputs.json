@@ -1,0 +1,1013 @@
+{
+   "Unbabel/wmt23-cometkiwi-da-xl_referenceless":[
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Pacific League of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.42834049463272095
+      },
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Edison Company of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.814223051071167
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The American Civil War was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.44858676195144653
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The French Revolution was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.8347335457801819
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Lokomotiv Moscow activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.5441645383834839
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Kundalini Yoga activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.8285627365112305
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Longxi River, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.6538965106010437
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Indian Ocean, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.8640727996826172
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of American Dollar (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.7420201301574707
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of the British Pound (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.8630235195159912
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful Indonesian wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.4242669939994812
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful African wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.825433075428009
+      }
+   ],
+   "Unbabel/wmt22-cometkiwi-da_referenceless":[
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Pacific League of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.6542305946350098
+      },
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Edison Company of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.8824547529220581
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The American Civil War was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.816989541053772
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The French Revolution was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.8955135941505432
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Lokomotiv Moscow activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.7589649558067322
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Kundalini Yoga activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.8790071606636047
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Longxi River, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.7473890781402588
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Indian Ocean, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.8896409869194031
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of American Dollar (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.8513572812080383
+      },
+
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of the British Pound (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.8919316530227661
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful Indonesian wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.8294974565505981
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful African wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.8753951191902161
+      }
+   ],
+   "Unbabel/wmt22-comet-da":[
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Pacific League of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.8581681847572327
+      },
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Edison Company of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.9422407746315002
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The American Civil War was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.8726621866226196
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The French Revolution was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.8871597051620483
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Lokomotiv Moscow activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.8381470441818237
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Kundalini Yoga activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.9031925797462463
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Longxi River, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.8380482792854309
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Indian Ocean, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.9308436512947083
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of American Dollar (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.9103937745094299
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of the British Pound (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.9142799377441406
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful Indonesian wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.8517423868179321
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful African wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.8949360251426697
+      }
+   ],
+   "Unbabel/XCOMET-XL_referenceless":[
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Pacific League of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.7589257955551147,
+         "src_score":0.8037511110305786,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"Pacific League",
+               "confidence":0.7467236518859863,
+               "severity":"critical",
+               "start":36,
+               "end":51
+            }
+         ]
+      },
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Edison Company of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.9941847324371338,
+         "src_score":0.9925445318222046,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The American Civil War was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.7651928663253784,
+         "src_score":0.8117857575416565,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"American Civil War",
+               "confidence":0.5329917669296265,
+               "severity":"critical",
+               "start":3,
+               "end":22
+            }
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The French Revolution was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.9966937303543091,
+         "src_score":0.9957612752914429,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Lokomotiv Moscow activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.34704071283340454,
+         "src_score":0.444923996925354,
+         "mqm_score":0.0,
+         "error_spans":[
+            {
+               "text":"Lokomotiv Moscow",
+               "confidence":0.7624032497406006,
+               "severity":"critical",
+               "start":0,
+               "end":16
+            },
+            {
+               "text":"tes",
+               "confidence":0.783795177936554,
+               "severity":"critical",
+               "start":23,
+               "end":26
+            },
+            {
+               "text":"s.",
+               "confidence":0.521735668182373,
+               "severity":"critical",
+               "start":154,
+               "end":156
+            }
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Kundalini Yoga activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.974755048751831,
+         "src_score":0.9676346778869629,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Longxi River, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.8569592237472534,
+         "src_score":0.8730247020721436,
+         "mqm_score":0.800000011920929,
+         "error_spans":[
+            {
+               "text":"the Longxi River",
+               "confidence":0.4713362157344818,
+               "severity":"major",
+               "start":39,
+               "end":56
+            }
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Indian Ocean, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":1.0,
+         "src_score":1.0,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of American Dollar (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.9465675354003906,
+         "src_score":0.9540609121322632,
+         "mqm_score":0.9200000166893005,
+         "error_spans":[
+            {
+               "text":"lands Pound",
+               "confidence":0.42654716968536377,
+               "severity":"minor",
+               "start":52,
+               "end":63
+            },
+            {
+               "text":"of American Dollar",
+               "confidence":0.3741692900657654,
+               "severity":"minor",
+               "start":111,
+               "end":130
+            }
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of the British Pound (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.9782653450965881,
+         "src_score":0.9834171533584595,
+         "mqm_score":0.9599999785423279,
+         "error_spans":[
+            {
+               "text":"lands Pound",
+               "confidence":0.4522835612297058,
+               "severity":"minor",
+               "start":52,
+               "end":63
+            }
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful Indonesian wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.8018966913223267,
+         "src_score":0.8588418960571289,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"Indonesian",
+               "confidence":0.7720129489898682,
+               "severity":"critical",
+               "start":114,
+               "end":125
+            }
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful African wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":1.0,
+         "src_score":1.0,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      }
+   ],
+   "Unbabel/XCOMET-XL":[
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Pacific League of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.7546409368515015,
+         "src_score":0.8037511110305786,
+         "ref_score":0.7964435815811157,
+         "unified_score":0.7980740666389465,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"the Pacific League of",
+               "confidence":0.5365349054336548,
+               "severity":"critical",
+               "start":32,
+               "end":54
+            }
+         ]
+      },
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Edison Company of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.9975345134735107,
+         "src_score":0.9925445318222046,
+         "ref_score":1.0132076740264893,
+         "unified_score":0.9952399730682373,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The American Civil War was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.7246854305267334,
+         "src_score":0.8117857575416565,
+         "ref_score":0.8666107654571533,
+         "unified_score":0.6342108845710754,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"The American Civil War",
+               "confidence":0.513361930847168,
+               "severity":"critical",
+               "start":0,
+               "end":22
+            }
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The French Revolution was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.9877326488494873,
+         "src_score":0.9957612752914429,
+         "ref_score":0.9896500110626221,
+         "unified_score":0.9747174978256226,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Lokomotiv Moscow activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.6732815504074097,
+         "src_score":0.444923996925354,
+         "ref_score":0.8106023073196411,
+         "unified_score":0.6678543090820312,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"Lokomotiv Moscow",
+               "confidence":0.6094163656234741,
+               "severity":"critical",
+               "start":0,
+               "end":16
+            }
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Kundalini Yoga activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.9767557382583618,
+         "src_score":0.9676346778869629,
+         "ref_score":0.9729277491569519,
+         "unified_score":0.9684041738510132,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Longxi River, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.8301836252212524,
+         "src_score":0.8730247020721436,
+         "ref_score":0.8677628040313721,
+         "unified_score":0.7971483469009399,
+         "mqm_score":0.800000011920929,
+         "error_spans":[
+            {
+               "text":"the Longxi River",
+               "confidence":0.46547457575798035,
+               "severity":"major",
+               "start":39,
+               "end":56
+            }
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Indian Ocean, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":1.0,
+         "src_score":1.0235241651535034,
+         "ref_score":1.0203062295913696,
+         "unified_score":1.0186372995376587,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of American Dollar (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.8545833826065063,
+         "src_score":0.9540609121322632,
+         "ref_score":0.8891046643257141,
+         "unified_score":0.8469439148902893,
+         "mqm_score":0.7599999904632568,
+         "error_spans":[
+            {
+               "text":"lands Po",
+               "confidence":0.3969162106513977,
+               "severity":"minor",
+               "start":52,
+               "end":60
+            },
+            {
+               "text":"of American Dollar",
+               "confidence":0.41859644651412964,
+               "severity":"major",
+               "start":111,
+               "end":130
+            }
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of the British Pound (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.9772664308547974,
+         "src_score":0.9834171533584595,
+         "ref_score":0.9875239729881287,
+         "unified_score":0.9762833118438721,
+         "mqm_score":0.9599999785423279,
+         "error_spans":[
+            {
+               "text":"lands Po",
+               "confidence":0.44301146268844604,
+               "severity":"minor",
+               "start":52,
+               "end":60
+            }
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful Indonesian wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.7615839838981628,
+         "src_score":0.8588418960571289,
+         "ref_score":0.8340057730674744,
+         "unified_score":0.7881848812103271,
+         "mqm_score":0.5600000023841858,
+         "error_spans":[
+            {
+               "text":"nah",
+               "confidence":0.29224348068237305,
+               "severity":"minor",
+               "start":93,
+               "end":96
+            },
+            {
+               "text":"Indonesian",
+               "confidence":0.4964843690395355,
+               "severity":"critical",
+               "start":114,
+               "end":125
+            }
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful African wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.9838793873786926,
+         "src_score":1.0063556432724,
+         "ref_score":0.9839000701904297,
+         "unified_score":0.9939161539077759,
+         "mqm_score":0.9599999785423279,
+         "error_spans":[
+            {
+               "text":"nah",
+               "confidence":0.398346483707428,
+               "severity":"minor",
+               "start":93,
+               "end":96
+            }
+         ]
+      }
+   ],
+   "Unbabel/XCOMET-XXL":[
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Pacific League of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.5900088548660278,
+         "src_score":0.42268505692481995,
+         "ref_score":0.8080640435218811,
+         "unified_score":0.4261378049850464,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"the Pacific League",
+               "confidence":0.8787338733673096,
+               "severity":"critical",
+               "start":32,
+               "end":51
+            }
+         ]
+      },
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Edison Company of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.9966087341308594,
+         "src_score":0.9823814630508423,
+         "ref_score":1.0305603742599487,
+         "unified_score":0.9961300492286682,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The American Civil War was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.4006578028202057,
+         "src_score":0.197462260723114,
+         "ref_score":0.5870082378387451,
+         "unified_score":0.15530186891555786,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"The American Civil War",
+               "confidence":0.9380505681037903,
+               "severity":"critical",
+               "start":0,
+               "end":22
+            }
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The French Revolution was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.9978564977645874,
+         "src_score":1.0124374628067017,
+         "ref_score":1.0303369760513306,
+         "unified_score":0.9935045838356018,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Lokomotiv Moscow activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.2529701590538025,
+         "src_score":0.17115630209445953,
+         "ref_score":0.33475571870803833,
+         "unified_score":0.2362484633922577,
+         "mqm_score":0.20000000298023224,
+         "error_spans":[
+            {
+               "text":"Lokomotiv Moscow",
+               "confidence":0.9943995475769043,
+               "severity":"critical",
+               "start":0,
+               "end":16
+            },
+            {
+               "text":"tes",
+               "confidence":0.7673822641372681,
+               "severity":"critical",
+               "start":23,
+               "end":26
+            }
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Kundalini Yoga activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.9967076778411865,
+         "src_score":1.0010606050491333,
+         "ref_score":0.9961482286453247,
+         "unified_score":0.9938749670982361,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Longxi River, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.5290910005569458,
+         "src_score":0.3963410556316376,
+         "ref_score":0.7111411094665527,
+         "unified_score":0.3480408191680908,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"Longxi River",
+               "confidence":0.6803068518638611,
+               "severity":"critical",
+               "start":43,
+               "end":56
+            }
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Indian Ocean, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.9961087703704834,
+         "src_score":1.007233738899231,
+         "ref_score":1.0163371562957764,
+         "unified_score":0.9882081151008606,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of American Dollar (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.5793048143386841,
+         "src_score":0.49605831503868103,
+         "ref_score":0.7342532277107239,
+         "unified_score":0.4408310055732727,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"American Dollar",
+               "confidence":0.9249897003173828,
+               "severity":"critical",
+               "start":114,
+               "end":130
+            }
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of the British Pound (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.9919973611831665,
+         "src_score":1.0023908615112305,
+         "ref_score":1.0230034589767456,
+         "unified_score":0.9757494926452637,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful Indonesian wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.5608329772949219,
+         "src_score":0.49014008045196533,
+         "ref_score":0.6750801801681519,
+         "unified_score":0.4461807310581207,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"Indonesian",
+               "confidence":0.954448401927948,
+               "severity":"critical",
+               "start":114,
+               "end":125
+            }
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful African wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.9971274137496948,
+         "src_score":1.0075175762176514,
+         "ref_score":1.0054571628570557,
+         "unified_score":0.9912950992584229,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      }
+   ],
+   "Unbabel/XCOMET-XXL_referenceless":[
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Pacific League of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.4616943299770355,
+         "src_score":0.42268505692481995,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"the Pacific League",
+               "confidence":0.9911329746246338,
+               "severity":"critical",
+               "start":32,
+               "end":51
+            }
+         ]
+      },
+      {
+         "src":"Nel 1884, Tesla accettò un'offerta di lavoro presso la Edison Company di New York City e questo lo portò a trasferirsi negli Stati Uniti d’America.",
+         "mt":"In 1884, Tesla accepted a job at the Edison Company of New York City and moved to the United States of America.",
+         "ref":"In 1884, Tesla accepted a job with the Edison Company in New York City and moved to the United States of America.",
+         "score":0.9862575531005859,
+         "src_score":0.9823814630508423,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The American Civil War was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":0.28602057695388794,
+         "src_score":0.197462260723114,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"The American Civil War",
+               "confidence":0.9826036095619202,
+               "severity":"critical",
+               "start":0,
+               "end":22
+            }
+         ]
+      },
+      {
+         "src":"La Rivoluzione francese è stata una fonte di ispirazione anche per molti altri lavoratori oppressi di vari Paesi per iniziare la propria rivoluzione.",
+         "mt":"The French Revolution was also an inspiration for many other oppressed workers from various countries to start their own revolution.",
+         "ref":"The French Revolution also inspired many other repressed working class people of other country's to began their own revolutions.",
+         "score":1.0,
+         "src_score":1.0,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Lokomotiv Moscow activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":0.2655019164085388,
+         "src_score":0.17115630209445953,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"Lokomotiv Moscow activates",
+               "confidence":0.8615705370903015,
+               "severity":"critical",
+               "start":0,
+               "end":26
+            }
+         ]
+      },
+      {
+         "src":"Il Kundalini Yoga attiva l'energia Kundalini (energia dell'illuminazione) mediante l'impiego di posizioni yoga, esercizi di respirazione, mantra e visualizzazioni.",
+         "mt":"Kundalini Yoga activates the Kundalini energy (energy of enlightenment) through the use of yoga postures, breathing exercises, mantras and visualizations.",
+         "ref":"With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+         "score":1.0,
+         "src_score":1.0,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Longxi River, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":0.44114601612091064,
+         "src_score":0.3963410556316376,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"the Longxi River",
+               "confidence":0.9410082101821899,
+               "severity":"critical",
+               "start":39,
+               "end":56
+            }
+         ]
+      },
+      {
+         "src":"Le isole dell'Africa orientale sono situate nell'Oceano Indiano, al largo della costa est dell'Africa.",
+         "mt":"The East African islands are located in the Indian Ocean, off the east coast of Africa.",
+         "ref":"The East African Islands are in the Indian Ocean off the eastern coast of Africa.",
+         "score":1.0,
+         "src_score":1.0,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of American Dollar (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":0.5189254283905029,
+         "src_score":0.49605831503868103,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"American Dollar",
+               "confidence":0.9897549152374268,
+               "severity":"critical",
+               "start":114,
+               "end":130
+            }
+         ]
+      },
+      {
+         "src":"Le Falkland hanno la loro moneta ufficiale, la sterlina delle Falkland (FKP), il cui valore equivale a quello della sterlina britannica (GBP).",
+         "mt":"The Falklands have their official currency, the Falklands Pound (FKP), the value of which is equivalent to that of the British Pound (GBP).",
+         "ref":"The official Falklands currency is the Falkland pound (FKP) whose value is set equivalent to that of one British pound (GBP).",
+         "score":1.0,
+         "src_score":1.0,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful Indonesian wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":0.514309287071228,
+         "src_score":0.49014008045196533,
+         "mqm_score":0.6000000238418579,
+         "error_spans":[
+            {
+               "text":"Indonesian",
+               "confidence":0.9945366382598877,
+               "severity":"critical",
+               "start":114,
+               "end":125
+            }
+         ]
+      },
+      {
+         "src":"Nel suo uso popolare, il termine safari fa riferimento a viaggi svolti via terra, in particolare nella savana, per vedere la bellissima fauna selvatica africana.",
+         "mt":"In its popular usage, the term safari refers to trips made by land, particularly in the savannah, to see beautiful African wildlife.",
+         "ref":"The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+         "score":1.0,
+         "src_score":1.0,
+         "mqm_score":1.0,
+         "error_spans":[
+            
+         ]
+      }
+   ]
+}
