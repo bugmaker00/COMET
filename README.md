@@ -294,6 +294,12 @@ poetry run coverage report -m # Expected coverage 76%
 
 **Note:** Testing on CPU takes a long time
 
+### 📝 Engineering TODOs
+
+| File | Line | Description |
+|------|------|-------------|
+| `comet/cli/mbr.py` | 76 | Optimize this function to have faster MBR decoding! |
+
 # Publications
 
 If you use COMET please cite our work **and don't forget to say which model you used!**
