@@ -293,13 +293,6 @@ poetry run coverage report -m # Expected coverage 76%
 ```
 
 **Note:** Testing on CPU takes a long time
-
-### 📝 Engineering TODOs
-
-| File | Line | Description |
-|------|------|-------------|
-| `comet/cli/mbr.py` | 76 | Optimize this function to have faster MBR decoding! |
-
 # Publications
 
 If you use COMET please cite our work **and don't forget to say which model you used!**
@@ -323,3 +316,9 @@ If you use COMET please cite our work **and don't forget to say which model you 
 - [Unbabel's Participation in the WMT20 Metrics Shared Task](https://aclanthology.org/2020.wmt-1.101/)
 
 - [COMET: A Neural Framework for MT Evaluation](https://www.aclweb.org/anthology/2020.emnlp-main.213)
+
+### 📝 Engineering TODOs
+
+| File | Line | Description |
+|------|------|-------------|
+| `comet/cli/mbr.py` | 76 | Optimize this function to have faster MBR decoding! |
